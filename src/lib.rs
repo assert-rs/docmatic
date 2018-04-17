@@ -38,7 +38,7 @@ where
     assert_file_impl(documentation.as_ref())
 }
 
-pub fn assert_file_impl(documentation: &path::Path) {
+fn assert_file_impl(documentation: &path::Path) {
     let rustdoc = which::which("rustdoc").expect("run with rust toolchain available");
 
     let current_exe = std::path::Path::new(&std::env::current_exe().unwrap())
