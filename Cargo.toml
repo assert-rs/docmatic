@@ -2,6 +2,17 @@
 name = "docmatic"
 version = "0.1.0"
 authors = ["Ed Page <eopage@gmail.com>"]
+description = "Test Rust examples in your documentation."
+repository = "https://github.com/assert-rs/docmatic"
+documentation = "https://docs.rs/docmatic"
+readme = "README.md"
+categories = ["development-tools", "development-tools::testing"]
+keywords = ["markdown", "documentation", "testing"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "assert-rs/docmatic" }
+appveyor  = { repository = "epage/docmatic" }
 
 [dependencies]
 glob = "0.2"
