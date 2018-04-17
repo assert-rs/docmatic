@@ -3,7 +3,7 @@
 > Be dogmatic about working documentation.
 
 [![Build Status](https://travis-ci.org/assert-rs/docmatic.svg?branch=master)](https://travis-ci.org/assert-rs/docmatic)
-[![Build status](https://ci.appveyor.com/api/projects/status/enru6k55xme867u6?svg=true)](https://ci.appveyor.com/project/epage/docmatic)
+[![Build status](https://ci.appveyor.com/api/projects/status/bte7gyfxylva10ax?svg=true)](https://ci.appveyor.com/project/epage/docmatic)
 [![Documentation](https://img.shields.io/badge/docs-master-blue.svg)](https://docs.rs/docmatic)
 ![License](https://img.shields.io/crates/l/docmatic.svg)
 [![Crates.io](https://img.shields.io/crates/v/docmatic.svg?maxAge=2592000)](https://crates.io/crates/docmatic)
