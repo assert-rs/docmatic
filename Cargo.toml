@@ -1,0 +1,8 @@
+[package]
+name = "docmatic"
+version = "0.1.0"
+authors = ["Ed Page <eopage@gmail.com>"]
+
+[dependencies]
+glob = "0.2"
+which = "2.0"
