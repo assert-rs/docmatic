@@ -1,6 +1,6 @@
 [package]
 name = "docmatic"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ed Page <eopage@gmail.com>"]
 description = "Test Rust examples in your documentation."
 repository = "https://github.com/assert-rs/docmatic"
