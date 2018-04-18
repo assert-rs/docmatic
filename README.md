@@ -31,6 +31,30 @@ fn test_readme() {
 For more information on using docmatic, look at the
 [documentation](https://docs.rs/docmatic)
 
+## Why Docmatic?
+
+Compared to doing nothing:
+- When you have stale documentation, it gives a sour taste to those considering your crate
+
+Compared to [`#![doc(include = "../README.md")]`](https://github.com/yoshuawuyts/human-panic/tree/ed11055e0602c3c8d223ed8354058fefb9ac47ec)
+- Allows your README to focus on potential contributors and your API docs on potential users
+- Doesn't require nightly
+
+Compared to `rustdoc -L target/debug/deps/ --test README.md`
+- For docmatic:
+  - Easier for contributors to know how to run
+- For rustdoc:
+  - Simple
+  - No dependencies to muck with
+
+Compared to [skeptic](https://github.com/budziq/rust-skeptic):
+- For docmatic:
+  - Fewer dependencies for faster build
+  - Doesn't require exposing those dependencies to your users via a `[build-dependencies]`
+  - Runs in the expected working directory
+- For skeptic:
+  - Skeptic templates
+  - Better integration with `cargo test` (each block is a distinct test)
 
 ## License
 
