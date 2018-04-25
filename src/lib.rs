@@ -26,7 +26,6 @@
 //! }
 //! ```
 
-extern crate glob;
 extern crate which;
 
 use std::path;

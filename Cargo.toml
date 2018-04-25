@@ -15,5 +15,4 @@ travis-ci = { repository = "assert-rs/docmatic" }
 appveyor  = { repository = "epage/docmatic" }
 
 [dependencies]
-glob = "0.2"
 which = "2.0"
