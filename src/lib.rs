@@ -31,8 +31,7 @@ extern crate which;
 use std::path;
 use std::ffi::OsStr;
 
-/// The `Assert` type is a specialized process builder made to manage `rustdoc`
-/// test sessions.
+/// A specialized process builder managing a `rustdoc` test session.
 ///
 /// # Example
 ///
