@@ -18,7 +18,8 @@ install:
 - cargo -V
 
 test_script:
-  - cargo test --verbose
+- del /S/Q target/debug/deps/*docmatic*  # Avoid link problems with cached versions
+- cargo test --verbose
 
 cache:
 - C:\Users\appveyor\.cargo\registry
