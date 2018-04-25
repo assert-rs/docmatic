@@ -30,6 +30,7 @@ install:
 - cargo -V
 
 script:
+- rm -rf target/debug/deps/*docmatic*  # Avoid link problems with cached versions
 - cargo test --verbose
 - cargo doc --no-deps
 
