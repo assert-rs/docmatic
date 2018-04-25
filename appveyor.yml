@@ -18,7 +18,7 @@ install:
 - cargo -V
 
 test_script:
-- del /S/Q target/debug/deps/*docmatic*  # Avoid link problems with cached versions
+- del /S/Q target\\debug\\deps\\*docmatic*  # Avoid link problems with cached versions
 - cargo test --verbose
 
 cache:
