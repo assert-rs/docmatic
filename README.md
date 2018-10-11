@@ -41,18 +41,18 @@ Compared to [`#![doc(include = "../README.md")]`](https://github.com/yoshuawuyts
 - Doesn't require nightly
 
 Compared to `rustdoc -L target/debug/deps/ --test README.md`
-- For docmatic:
+- Docmatic pros:
   - Easier for contributors to know how to run
-- For rustdoc:
+- `rustdoc` pros:
   - Simple
   - No dependencies to muck with
 
 Compared to [skeptic](https://github.com/budziq/rust-skeptic):
-- For docmatic:
+- Docmatic pros:
   - Fewer dependencies for faster build
   - Doesn't require exposing those dependencies to your users via a `[build-dependencies]`
   - Runs in the expected working directory
-- For skeptic:
+- Skeptic pros:
   - Skeptic templates
   - Better integration with `cargo test` (each block is a distinct test)
 
