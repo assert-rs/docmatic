@@ -56,6 +56,8 @@ Compared to [skeptic](https://github.com/budziq/rust-skeptic):
   - Skeptic templates
   - Better integration with `cargo test` (each block is a distinct test)
 
+See [doc-comment](https://github.com/GuillaumeGomez/doc-comment) for another aproach.
+
 ## License
 
 `docmatic` is distributed under the terms of both the MIT license and the
